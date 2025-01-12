@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_countries
+    description: "Staging model for transforming raw country data"
+    columns:
+      - name: name
+        description: "Country name"
+      - name: country_code_alpha2
+        description: "2-letter ISO country code"
+      - name: country_code_alpha3
+        description: "3-letter ISO country code"
+      - name: country_numeric_code
+        description: "Numeric country code"
+      - name: iso_3166_2
+        description: "ISO 3166-2 country subdivision code"
+      - name: region
+        description: "Geographical region of the country"
+      - name: sub_region
+        description: "Geographical sub-region of the country"
+      - name: intermediate_region
+        description: "Geographical intermediate region, if applicable"
