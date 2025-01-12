@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_dataset
+    database: dbt-jaffle-shop-447319  
+    schema: dbt_demo  
+    tables:
+      - name: raw_countries
+        description: "Raw country data"

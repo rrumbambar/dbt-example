@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: countries
+    description: "Aggregated information about countries, grouped by region and sub-region"
+    columns:
+      - name: region
+        description: "The region to which the country belongs"
+      - name: sub_region
+        description: "The sub-region to which the country belongs"
+      - name: country_count
+        description: "The total count of countries in each region/sub-region"
+      - name: country_names
+        description: "The names of the countries in each region/sub-region"
